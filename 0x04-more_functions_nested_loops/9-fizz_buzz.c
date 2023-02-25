@@ -17,6 +17,10 @@ int main(void)
 	{
 	printf("FizzBuzz");
 	}
+	else if (x % 3 == 0)
+	{
+	printf("Fizz");
+	}
 	else if (x % 5 == 0)
 	{
 	printf("Buzz");
